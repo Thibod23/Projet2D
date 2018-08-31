@@ -85,11 +85,13 @@ public class PlayerMovement : MonoBehaviour {
                 {
                     hitBufferListInteraction[0].transform.gameObject.GetComponent<Interaction>().Interact();
                 }
-                else
+                
+            }
+            
+        }
+        else
                 {
                     fireIsPressed = false;
                 }
-            }
-        }
     }
 }
